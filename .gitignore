@@ -97,6 +97,11 @@ dist
 # https://nextjs.org/blog/next-9-1#public-directory-support
 # public
 
+# Obsidian
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/cache
+
 # vuepress build output
 .vuepress/dist
 

@@ -1,0 +1,55 @@
+# Svelte Blog Core Rules
+
+## Project Structure
+- src/
+  - lib/components/{layout,content,ui}
+  - lib/{server,stores,utils}
+  - routes/
+  - params/
+  - app.html, error.html
+  - hooks.{client,server}.ts
+  - app.d.ts
+- static/{images,fonts}
+- tests/
+- config files (ts/vite/tailwind)
+
+## Naming
+- PascalCase: components
+- camelCase: variables/functions
+- kebab-case: files
+- UPPERCASE: constants
+
+## Core Requirements
+- TypeScript strict mode
+- Svelte 5 runes ($state, $derived, $effect)
+- Mobile-first Tailwind design
+- WCAG 2.1 Level AA accessibility
+- SSR/SSG optimization
+- Dark mode support
+
+## Component Guidelines
+- .svelte.ts extension
+- Explicit props and types
+- Snippet syntax with @render
+- Error boundaries
+- Loading states
+- Proper ARIA labels
+
+## Content Features
+- Markdown with preview
+- Autosave drafts
+- Image optimization
+- Code syntax highlighting
+- Search functionality
+
+## Security
+- Input sanitization
+- CSRF protection
+- Auth handling
+- File upload validation
+
+## Performance
+- Lazy loading
+- Image optimization
+- 90+ Lighthouse score
+- Dynamic imports
